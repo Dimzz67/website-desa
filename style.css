@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.navHome{
+    display: flex;
+}
+/* navbar */
+
+/* content1 */
+.isi{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiri {
+    text-align: left;
+    width: 600px;
+    margin-top: 70px;
+    margin-right: 20px;
+    
+    h2{
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+.kanan {
+    margin-top: 70px;
+    margin-left: 6%;
+}
+.foto {
+    height: 340px;
+    width: 500px;
+}
+/* content1 */
+
+/* content2 */
+.container2{
+    height: 633px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #faf7f7;
+}
+.foto3 {
+    padding-top: 130px;
+    padding-left: 120px;
+    gap: 20px;
+    text-align: left;
+}
+.foto7 {
+    flex-direction: column;
+    padding-top: 130px;
+    padding-left: 170px;
+    gap: 70px;
+}
+
+.jpg {
+    width: 450px;
+    height: 230px;
+    transition: all 0.5s ease-in-out;
+}
+
+.jpg:hover{
+    transform: scale(1.1);
+}
+.p{
+    width: 450px;
+    text-align: left;
+}
+/* content2 */
+
+/* content3 */
+.container3 {
+    background-color: #0d6efd;
+    height: 165px;
+    display: flex;
+    color: white;
+}
+.footer{
+    flex-direction: column;
+   padding-top: 20px;
+}
+.judul {
+    margin-top: -5px;
+    padding-left: 1px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo1 {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+.logo2 {
+    display: flex;
+    gap: 10px;
+    padding-top: -15px;
+}
+/* content3 */
+.col1{
+    margin-top: 0;
+    padding-left: 120px;
+    width: max-content;
+    height: max-content;
+}
+.col2{
+    padding-left: 0px;
+}
+.col3{
+    padding-left: -70px;
+    gap: 50px;
+}
+.p {
+    margin-top: -3px;
+}
+.judulA{
+    margin-top: -13px;
+}
+.frame {
+    margin-top: 15px;
+}
+
